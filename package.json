@@ -1,0 +1,26 @@
+{
+  "name": "paramatize",
+  "version": "0.1.0",
+  "description": "JSON Sanitization",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rschmukler/paramatize"
+  },
+  "keywords": [
+    "json",
+    "sanitize",
+    "json",
+    "sanitization",
+    "params"
+  ],
+  "author": "Ryan Schmukler <ryan@slingingcode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rschmukler/paramatize/issues"
+  },
+  "homepage": "https://github.com/rschmukler/paramatize"
+}
