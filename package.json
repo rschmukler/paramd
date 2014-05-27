@@ -1,5 +1,5 @@
 {
-  "name": "paramatize",
+  "name": "paramd",
   "version": "0.1.0",
   "description": "JSON Sanitization",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rschmukler/paramatize"
+    "url": "git://github.com/rschmukler/paramd"
   },
   "keywords": [
     "json",
@@ -20,9 +20,9 @@
   "author": "Ryan Schmukler <ryan@slingingcode.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rschmukler/paramatize/issues"
+    "url": "https://github.com/rschmukler/paramd/issues"
   },
-  "homepage": "https://github.com/rschmukler/paramatize",
+  "homepage": "https://github.com/rschmukler/paramd",
   "devDependencies": {
     "mocha": "~1.19.0",
     "expect.js": "~0.3.1"
