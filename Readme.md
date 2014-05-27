@@ -52,7 +52,7 @@ sanitized
 try {
   var json = sanitizd({name: 'Bob'});
 } catch(e) {
-  res.json(e.status, e.message);
+  res.json(e.status, e.message); // note e.status is available
 }
 ```
 
@@ -86,6 +86,8 @@ var attrs = sanitized(req.body);
 Blacklisting methods are
 
 - `except` / `filter`
+
+Blacklist Example:
 
 ```js
 var sanitized = paramd()
