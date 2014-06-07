@@ -83,7 +83,7 @@ Param.prototype.optional = Param.prototype.allow = function(attrs, opts) {
   return this;
 };
 
-Param.prototype.except = Param.prototype.filter = function(attrs, opts) {
+Param.prototype.except = Param.prototype.filter = Param.prototype.without = function(attrs, opts) {
   this._setBlacklisting();
   if(typeof attrs == 'string') attrs = [attrs];
   opts = opts || {};

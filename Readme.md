@@ -85,7 +85,7 @@ var attrs = sanitized(req.body);
 
 Blacklisting methods are
 
-- `except` / `filter`
+- `except` / `filter / without`
 
 Blacklist Example:
 

@@ -69,6 +69,7 @@ describe('paramd', function() {
     it('equal to filter and expect', function() {
       var paramd = param();
       expect(paramd.except).to.be(paramd.filter);
+      expect(paramd.except).to.be(paramd.without);
     });
     it('filters the parameter', function() {
       var paramd = param().except('test');
